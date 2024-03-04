@@ -76,6 +76,9 @@ const config = {
         "questrial": ["Questrial", "sans-serif"],
         "rorobot_con": ["Roboto Condensed", "sans-serif"],
         "space_grotesk": ["Space Grotesk", "sans-serif"],
+      },
+      screens:{
+        'xl': {'min': '1700px', 'max': '2000px'},
       }
     },
   },

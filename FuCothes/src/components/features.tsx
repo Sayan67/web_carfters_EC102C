@@ -3,18 +3,20 @@ import Link from "next/link";
 
 const Features = () => {
   return (
-    <div>
-      <section>
-        <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8">
-          <header className="text-center">
-            <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">
-              New Collection
+    // <div className="w-full h-screen bg-inherit">
+    //   <section className="w-full h-full">
+        
+    //   </section>
+    // </div>
+    <div className="w-full h-full bg-inherit">
+      <div className="w-full px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8 mt-32">
+          <header className="text-center flex flex-col gap-6 mb-6">
+            <h2 className="lg:text-[4vmax] font-normal sm:text-3xl font-space_grotesk text-white">
+              Hottest Collections
             </h2>
 
-            <p className="max-w-md mx-auto mt-4 text-gray-500">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque
-              praesentium cumque iure dicta incidunt est ipsam, officia dolor
-              fugit natus?
+            <p className="max-w-md mx-auto mt-4 text-gray-500 font-questrial">
+            "Elevate your style with timeless elegance and modern sophistication. Discover ECE Store today!"
             </p>
           </header>
 
@@ -26,7 +28,7 @@ const Features = () => {
                   width={100}
                   height={100}
                   alt=""
-                  className=" bg-center object-cover w-full transition duration-500 aspect-square group-hover:opacity-90"
+                  className="rounded-3xl bg-center object-cover w-full transition duration-500 aspect-square group-hover:opacity-90"
                 />
 
                 <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
@@ -34,7 +36,7 @@ const Features = () => {
                     Casual Trainers
                   </h3>
 
-                  <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
+                  <span className="rounded-lg mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
                     Shop Now
                   </span>
                 </div>
@@ -48,7 +50,7 @@ const Features = () => {
                   alt=""
                   width={100}
                   height={100}
-                  className="bg-center object-cover w-full transition duration-500 aspect-square group-hover:opacity-90"
+                  className=" rounded-3xl bg-center object-cover w-full transition duration-500 aspect-square group-hover:opacity-90"
                 />
 
                 <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
@@ -56,7 +58,7 @@ const Features = () => {
                     Winter Jumpers
                   </h3>
 
-                  <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
+                  <span className="rounded-lg mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
                     Shop Now
                   </span>
                 </div>
@@ -70,7 +72,7 @@ const Features = () => {
                   alt=""
                   width={100}
                   height={100}
-                  className="h-full w-full object-cover transition duration-500 aspect-square group-hover:opacity-90"
+                  className="rounded-3xl h-full w-full object-cover transition duration-500 aspect-square group-hover:opacity-90"
                 />
 
                 <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
@@ -78,7 +80,7 @@ const Features = () => {
                     Skinny Jeans Blue
                   </h3>
 
-                  <span className="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
+                  <span className="rounded-lg mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
                     Shop Now
                   </span>
                 </div>
@@ -86,7 +88,6 @@ const Features = () => {
             </li>
           </ul>
         </div>
-      </section>
     </div>
   );
 };

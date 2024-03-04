@@ -1,31 +1,31 @@
 import Image from "next/image";
 import Link from "next/link";
+import Contact from "./Contact";
 
 const Footer = () => {
   return (
     <div className="">
-      <footer className="text-gray-400 bg-gray-900 body-font">
+      <footer className="text-gray-400 bg-gray-900 body-font w-full">
       
-        <div className="bg-slate-700 bg-opacity-75">
-          <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+        <div className="bg-slate-700 bg-opacity-75 w-full">
+          <div className="container w-full px-1 py-6 mx-auto flex items-center sm:flex-row flex-col justify-between gap-5">
             <Link
               href={"/"}
               className="flex title-font font-medium items-center md:justify-start justify-center text-white"
             >
               <Image
-                src="/images/nike-logo.png"
+                src="/images/ECELogo.png"
                 alt="logo"
                 width={140}
                 height={100}
                 className="invert"
               />
-              <span className="ml-3 text-xl text-gray-400 hover:text-white">
+              <span className="ml-3 text-xl text-gray-400 hover:text-white font-space_grotesk">
                 ECE Store
               </span>
             </Link>
-            <p className="text-sm text-gray-400 sm:ml-6 sm:mt-0 mt-4">
-              © 2024 ECE Store
-            </p>
+            
+            <Contact/>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
               <Link href={"/"} className="text-gray-400 hover:text-white">
                 <svg
@@ -83,6 +83,9 @@ const Footer = () => {
                 </svg>
               </Link>
             </span>
+            <p className="text-sm text-gray-400 sm:ml-6 sm:mt-0 mt-4 font-space_grotesk">
+              © 2024 ECE Store
+            </p>
           </div>
         </div>
       </footer>

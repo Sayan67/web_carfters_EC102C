@@ -107,7 +107,7 @@ const Navbar = () => {
             {
               acc.map((item) => {
                 return (
-                  <a href="/profile">
+                  <a href="/profile" className="w-full">
 
                     <Image src={item.avatar} alt="image" width={40} height={40} className="rounded-full border-[2px] border-popover"></Image>
                   </a>

@@ -18,13 +18,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth h-full">
       <body className={`${inter.className} bg-slate-300`}>
         {/* <Header /> */}
         <div className=" mx-auto">
           <Navbar />
           {/* max-w-[90%] */}
-          <main className="">{children}</main>
+          <main className="w-full h-full">{children}</main>
           <Footer />
         </div>
       </body>
