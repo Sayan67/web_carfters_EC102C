@@ -81,7 +81,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between gap-6 w-full">
 
         {/* Logo */}
-        <a href="/" className="hover:rotate-180 duration-500">
+        <a href="/" className="hover:rotate-180 duration-500 ">
           <Image src={"/images/ECELogo.png"} alt="logo" width={35} height={35}></Image>
         </a>
 
@@ -91,7 +91,7 @@ const Navbar = () => {
           <NavigationMenuDemo />
         </div>
 
-        <div className="flex items-center gap-2 ">
+        <div className="flex items-center gap-4 ">
           <div className="sm:flex items-center hidden ">
             {/* Search input */}
             <input placeholder="Enter items name" type="text" className="text-sm py-1 placeholder:text-xs placeholder:text-slate-500 placeholder:tracking-wider placeholder:font-normal rounded-l-full outline-none px-4 bg-slate-900" />
@@ -100,8 +100,7 @@ const Navbar = () => {
             </button>
           </div>
 
-          {/* cart */}
-          <a href="/cart" className="p-[0.18rem] lg:p-[0.3rem] bg-slate-800 rounded-full border-popover border-[1px]"><CiShoppingCart size={25} /></a>
+          
           <div className=" justify-center flex items-center">
             <h1 className="text-[3vw] md:text-[1.8vw] lg:text-[0.8vw] flex gap-1 items-center text-white font-extralight rounded-full px-1 py-[0.18rem] lg:px-4 lg:py-1 bg-slate-800"><CiLocationOn />India</h1>
             <div className="border-t-[3px] border-slate-800 w-[1vw]"></div>
@@ -116,6 +115,8 @@ const Navbar = () => {
               })
             }
           </div>
+          {/* cart */}
+          <a href="/cart" className="p-[0.18rem] lg:p-[0.3rem] bg-slate-800 rounded-full border-popover border-[1px]"><CiShoppingCart size={25} /></a>
         </div>
       </div>
 
