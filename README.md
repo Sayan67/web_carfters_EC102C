@@ -1,5 +1,24 @@
 
-<h1 align="center">ECE Store</h1>  
+<h1 align="center">ECE Store</h1>
+<div align="center">
+ <p>
+
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=Sayan67%2Fweb_carfters_EC102C%20&countColor=%23263759&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/Sayan67/Youtube-uploader)
+![GitHub Repo stars](https://img.shields.io/github/stars/Sayan67/Youtube-uploader)
+![GitHub contributors](https://img.shields.io/github/contributors/Sayan67/Youtube-uploader)
+![GitHub last commit](https://img.shields.io/github/last-commit/Sayan67/Youtube-uploader)
+![GitHub repo size](https://img.shields.io/github/repo-size/Sayan67/Youtube-uploader)
+![Github](https://img.shields.io/github/license/Sayan67/Youtube-uploader)
+![GitHub issues](https://img.shields.io/github/issues/Sayan67/Youtube-uploader)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/Sayan67/Youtube-uploader)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Sayan67/Youtube-uploader)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/Sayan67/Youtube-uploader)
+
+ </p>
+ </div>  
 <p align="center">Website [↗️](https://fuclothes.vercel.app/) (Click Here)</p>  
 <p align="center">Welcome to ECE STORE, your go-to destination for futuristic fashion! 👗👖👟
 </p>  
