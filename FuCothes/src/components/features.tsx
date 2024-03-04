@@ -28,6 +28,7 @@ const Features = () => {
                   width={100}
                   height={100}
                   alt=""
+                  quality={100}
                   className="rounded-3xl bg-center object-cover w-full transition duration-500 aspect-square group-hover:opacity-90"
                 />
 
@@ -50,6 +51,7 @@ const Features = () => {
                   alt=""
                   width={100}
                   height={100}
+                  quality={100}
                   className=" rounded-3xl bg-center object-cover w-full transition duration-500 aspect-square group-hover:opacity-90"
                 />
 
@@ -68,11 +70,12 @@ const Features = () => {
             <li className="lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1">
               <Link href="#" className="relative block group">
                 <Image
-                  src="/images/feature4.jpg"
+                  src="https://i.pinimg.com/564x/df/4c/31/df4c314ad07502861c25950a1a298c77.jpg"
                   alt=""
                   width={100}
                   height={100}
-                  className="rounded-3xl h-full w-full object-cover transition duration-500 aspect-square group-hover:opacity-90"
+                  quality={100}
+                  className="rounded-3xl h-full w-full  transition duration-500 aspect-square group-hover:opacity-90"
                 />
 
                 <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
