@@ -70,7 +70,7 @@ const Features = () => {
             <li className="lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1">
               <Link href="#" className="relative block group">
                 <Image
-                  src="https://i.pinimg.com/564x/df/4c/31/df4c314ad07502861c25950a1a298c77.jpg"
+                  src="/images/feature4.jpg"
                   alt=""
                   width={100}
                   height={100}
