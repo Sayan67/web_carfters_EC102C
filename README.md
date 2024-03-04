@@ -1,17 +1,14 @@
 
-# ECE STORE  
-Website [↗️](https://fuclothes.vercel.app/) (Click Here)
-
-Welcome to ECE STORE, your go-to destination for futuristic fashion! 👗👖👟
-
-
-## Getting Started 
-
+<h1 align="center">ECE Store</h1>  
+<p align="center">Website [↗️](https://fuclothes.vercel.app/) (Click Here)</p>  
+<p align="center">Welcome to ECE STORE, your go-to destination for futuristic fashion! 👗👖👟
+</p>  
+</br>
 <div align="center">
 <img style="display:block;" src="./FuCothes/public/images/ECELogo.png"/>
 <h1>Fuclothes 👕🚀</h1>
-<img src="./FuCothes/public/images/hero.png" style="height: 300px; width:500px; border-radius:5%;display:block; margin-top:30px;"/>
-<img src="./FuCothes/public//images/cart.png" style="height: 300px; width:500px; border-radius:5%;display:block; margin:30px;"/>
+<img src="./FuCothes/public/images/hero.png" style="height: 280px; width:500px; border-radius:5%;display:block; margin-top:30px;"/>
+<img src="./FuCothes/public//images/cart.png" style="height: 280px; width:500px; border-radius:5%;display:block; margin:30px;"/>
 </div>
 
 
@@ -84,7 +81,7 @@ Despite these challenges, our team persevered and overcame each obstacle, result
 
 ## 🌟Contributors
     
-<div style="display:flex; gap:20px;">
+<div style="display:flex; gap:20px; flex-direction: row;">
     <a src="linkedin.com/in/sayan-daas" align="center">
         <img src="https://lh3.googleusercontent.com/a/ACg8ocIh-chwC9aPVqjcGI-m8RlEwRgv5ob8zrCPlimqKuapVCc=s576-c-no" style="width:100px; border-radius:100%;"/>
         <h5>Sayan Das ↗️</h5>
