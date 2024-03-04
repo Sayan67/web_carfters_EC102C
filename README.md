@@ -1,6 +1,6 @@
 
 # ECE STORE  
-Live [↗️](https://fuclothes.vercel.app/) (Click Here)
+Website [↗️](https://fuclothes.vercel.app/) (Click Here)
 
 Welcome to ECE STORE, your go-to destination for futuristic fashion! 👗👖👟
 
@@ -10,8 +10,8 @@ Welcome to ECE STORE, your go-to destination for futuristic fashion! 👗👖�
 <div align="center">
 <img style="display:block;" src="./FuCothes/public/images/ECELogo.png"/>
 <h1>Fuclothes 👕🚀</h1>
-<img src="https://drive.google.com/file/d/1SBhkgrxG-wAqK51omdbs34z6h-KTjp17/view?usp=sharing" style="height: 350px; width:500px; border-radius:5%;display:block; margin-top:30px;"/>
-<img src="https://drive.google.com/file/d/1SBhkgrxG-wAqK51omdbs34z6h-KTjp17/view?usp=sharing" style="height: 350px; width:500px; border-radius:5%;display:block; margin:30px;"/>
+<img src="./FuCothes/public/images/hero.png" style="height: 300px; width:500px; border-radius:5%;display:block; margin-top:30px;"/>
+<img src="./FuCothes/public//images/cart.png" style="height: 300px; width:500px; border-radius:5%;display:block; margin:30px;"/>
 </div>
 
 
@@ -94,7 +94,7 @@ Despite these challenges, our team persevered and overcame each obstacle, result
         <h5>Supratim Dey ↗️</h5>
     </a>
     <a href="linkedin.com/in/soumit-srimany-4bb443241">
-        <img src="" style="width:100px; border-radius:100%;"/>
+        <img src="https://media.licdn.com/dms/image/D5603AQEQ-U6RKGh3cw/profile-displayphoto-shrink_800_800/0/1709555199515?e=1715212800&v=beta&t=6UdllWfWtS4UvWHpBEqjvDYlX8-RTphi1V-55_uHY8Y" style="width:100px; border-radius:100%;"/>
         <h5>Soumit Srimany ↗️</h5>
     </a>
     <a href="linkedin.com/in/sayan-banerjee-094600241">
