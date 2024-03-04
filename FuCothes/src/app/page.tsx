@@ -1,11 +1,14 @@
 import Features from "@/components/features";
 import Hero from "@/components/hero";
+import LocomotiveScroll from "locomotive-scroll";
+
 
 export default function Home() {
+  
   return (
-    <div>
+    <main className="bg-black px-6">
       <Hero />
       <Features />
-    </div>
+    </main>
   );
 }
