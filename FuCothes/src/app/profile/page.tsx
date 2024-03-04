@@ -1,6 +1,6 @@
 import React from 'react'
 
-function page({name,avatar}:{name:string,avatar:string}) {
+function page() {
   return (
     <div>
         profile
