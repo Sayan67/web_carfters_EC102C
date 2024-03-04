@@ -111,7 +111,7 @@ const components: { title: string; href: string; description: string }[] = [
 
 export function NavigationMenuDemo() {
   return (
-    <NavigationMenu className="font-rorobot_con text-white hidden lg:block">
+    <NavigationMenu className="font-rorobot_con text-white ">
       <NavigationMenuList className="">
         <NavigationMenuItem className="">
 
